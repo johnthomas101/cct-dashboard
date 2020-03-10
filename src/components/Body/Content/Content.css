@@ -6,7 +6,7 @@
 }
 .contentSection {
   flex-grow: 1;
-  background-color: #333;
+  border: 1px solid #333;
   height: 100px;
   justify-content: space-around;
   align-items: center;
