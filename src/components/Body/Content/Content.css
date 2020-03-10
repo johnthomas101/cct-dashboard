@@ -1,0 +1,14 @@
+.contentCont {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  margin: auto;
+}
+.contentSection {
+  flex-grow: 1;
+  background-color: #333;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
