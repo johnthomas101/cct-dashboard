@@ -121,14 +121,14 @@ class ReactBar extends Component {
           this.props.config.config.height +
           ")"
       )
-      .text("Date");
+      .text("Group");
 
     d3.select(this.refs.yAxisLabel)
       .attr("transform", "rotate(-90)")
       .attr("y", 0)
       .attr("x", 0 - this.props.config.config.height / 2)
       .attr("dy", "1em")
-      .text("Value");
+      .text("Count");
 
     let state = this.state;
     let props = this.props;

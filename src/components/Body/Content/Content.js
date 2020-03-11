@@ -8,10 +8,23 @@ export default class Content extends Component {
     return (
       <div className="contentCont">
         <div className="contentSection">
-          <ReactBar config={fetchBarConfig()} />
+          <div className="contentHeader">Across Departments</div>
+          <div className="contentChart">
+            <ReactBar config={fetchBarConfig()} />
+          </div>
         </div>
-        <div className="contentSection">Hii</div>
-        <div className="contentSection">Hii</div>
+        <div className="contentSection">
+          <div className="contentHeader">Across Grades</div>
+          <div className="contentChart">
+            <ReactBar config={fetchBarConfig()} />
+          </div>
+        </div>
+        <div className="contentSection">
+          <div className="contentHeader">Across Locations</div>
+          <div className="contentChart">
+            <ReactBar config={fetchBarConfig()} />
+          </div>
+        </div>
       </div>
     );
   }

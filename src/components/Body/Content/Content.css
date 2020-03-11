@@ -3,12 +3,21 @@
   flex-direction: row;
   width: 98%;
   margin: auto;
+  flex-grow: 1;
 }
 .contentSection {
   flex-grow: 1;
+  flex-basis: 33%;
+  height: 100%;
   border: 1px solid #333;
-  height: 100px;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contentHeader {
+  color: #98aac4;
+  padding: 10px;
 }
